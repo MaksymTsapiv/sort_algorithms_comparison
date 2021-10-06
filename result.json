@@ -1,0 +1,658 @@
+{
+    "random_sample": {
+        "128": {
+            "selection_sort": {
+                "seconds": 0.0004709999999999992,
+                "comparisons": 8001
+            },
+            "insertion_sort": {
+                "seconds": 0.0005449999999999622,
+                "comparisons": 4697
+            },
+            "shell_sort": {
+                "seconds": 0.00018249999999997435,
+                "comparisons": 1087
+            },
+            "merge_sort": {
+                "seconds": 0.00022460000000001923,
+                "comparisons": 127
+            }
+        },
+        "256": {
+            "selection_sort": {
+                "seconds": 0.001842300000000019,
+                "comparisons": 32385
+            },
+            "insertion_sort": {
+                "seconds": 0.001567900000000011,
+                "comparisons": 15541
+            },
+            "shell_sort": {
+                "seconds": 0.0005055999999999949,
+                "comparisons": 3267
+            },
+            "merge_sort": {
+                "seconds": 0.0004929000000000183,
+                "comparisons": 255
+            }
+        },
+        "512": {
+            "selection_sort": {
+                "seconds": 0.00780599999999998,
+                "comparisons": 130305
+            },
+            "insertion_sort": {
+                "seconds": 0.00631360000000003,
+                "comparisons": 61258
+            },
+            "shell_sort": {
+                "seconds": 0.0011785000000000267,
+                "comparisons": 6683
+            },
+            "merge_sort": {
+                "seconds": 0.0009432000000000329,
+                "comparisons": 510
+            }
+        },
+        "1024": {
+            "selection_sort": {
+                "seconds": 0.031483099999999986,
+                "comparisons": 522753
+            },
+            "insertion_sort": {
+                "seconds": 0.0283485,
+                "comparisons": 262862
+            },
+            "shell_sort": {
+                "seconds": 0.004747100000000004,
+                "comparisons": 31142
+            },
+            "merge_sort": {
+                "seconds": 0.0020001000000000047,
+                "comparisons": 1022
+            }
+        },
+        "2048": {
+            "selection_sort": {
+                "seconds": 0.13288529999999998,
+                "comparisons": 2094081
+            },
+            "insertion_sort": {
+                "seconds": 0.11117999999999995,
+                "comparisons": 1037452
+            },
+            "shell_sort": {
+                "seconds": 0.008392400000000078,
+                "comparisons": 51846
+            },
+            "merge_sort": {
+                "seconds": 0.004350199999999971,
+                "comparisons": 2046
+            }
+        },
+        "4096": {
+            "selection_sort": {
+                "seconds": 0.5094492,
+                "comparisons": 8382465
+            },
+            "insertion_sort": {
+                "seconds": 0.45522739999999984,
+                "comparisons": 4230620
+            },
+            "shell_sort": {
+                "seconds": 0.02220449999999996,
+                "comparisons": 137157
+            },
+            "merge_sort": {
+                "seconds": 0.009310200000000046,
+                "comparisons": 4095
+            }
+        },
+        "8192": {
+            "selection_sort": {
+                "seconds": 1.9237380000000002,
+                "comparisons": 33542145
+            },
+            "insertion_sort": {
+                "seconds": 1.7285051999999999,
+                "comparisons": 16593077
+            },
+            "shell_sort": {
+                "seconds": 0.059525499999999454,
+                "comparisons": 394890
+            },
+            "merge_sort": {
+                "seconds": 0.020585500000000145,
+                "comparisons": 8191
+            }
+        },
+        "16384": {
+            "selection_sort": {
+                "seconds": 8.325525599999999,
+                "comparisons": 134193153
+            },
+            "insertion_sort": {
+                "seconds": 7.7686502,
+                "comparisons": 67217127
+            },
+            "shell_sort": {
+                "seconds": 0.17207009999999912,
+                "comparisons": 1153314
+            },
+            "merge_sort": {
+                "seconds": 0.045101999999999975,
+                "comparisons": 16383
+            }
+        },
+        "32768": {
+            "selection_sort": {
+                "seconds": 33.0603981,
+                "comparisons": 536821761
+            },
+            "insertion_sort": {
+                "seconds": 28.3396761,
+                "comparisons": 270349869
+            },
+            "shell_sort": {
+                "seconds": 0.5110219000000029,
+                "comparisons": 3644323
+            },
+            "merge_sort": {
+                "seconds": 0.09663240000000428,
+                "comparisons": 32767
+            }
+        }
+    },
+    "ordered_sample": {
+        "128": {
+            "selection_sort": {
+                "seconds": 0.0004440000000016653,
+                "comparisons": 8001
+            },
+            "insertion_sort": {
+                "seconds": 1.790000000312375e-05,
+                "comparisons": 127
+            },
+            "shell_sort": {
+                "seconds": 0.00010320000001229346,
+                "comparisons": 769
+            },
+            "merge_sort": {
+                "seconds": 0.00015779999999665506,
+                "comparisons": 64
+            }
+        },
+        "256": {
+            "selection_sort": {
+                "seconds": 0.0017392000000029384,
+                "comparisons": 32385
+            },
+            "insertion_sort": {
+                "seconds": 3.339999999241172e-05,
+                "comparisons": 255
+            },
+            "shell_sort": {
+                "seconds": 0.0002403000000015254,
+                "comparisons": 1793
+            },
+            "merge_sort": {
+                "seconds": 0.0003355999999996584,
+                "comparisons": 128
+            }
+        },
+        "512": {
+            "selection_sort": {
+                "seconds": 0.007473599999997305,
+                "comparisons": 130305
+            },
+            "insertion_sort": {
+                "seconds": 7.389999998963503e-05,
+                "comparisons": 511
+            },
+            "shell_sort": {
+                "seconds": 0.0005754999999965094,
+                "comparisons": 4097
+            },
+            "merge_sort": {
+                "seconds": 0.000733799999991902,
+                "comparisons": 256
+            }
+        },
+        "1024": {
+            "selection_sort": {
+                "seconds": 0.029854200000002606,
+                "comparisons": 522753
+            },
+            "insertion_sort": {
+                "seconds": 0.0001450999999974556,
+                "comparisons": 1023
+            },
+            "shell_sort": {
+                "seconds": 0.0013306999999969094,
+                "comparisons": 9217
+            },
+            "merge_sort": {
+                "seconds": 0.0019273000000055163,
+                "comparisons": 512
+            }
+        },
+        "2048": {
+            "selection_sort": {
+                "seconds": 0.11808929999999407,
+                "comparisons": 2094081
+            },
+            "insertion_sort": {
+                "seconds": 0.0002934999999979482,
+                "comparisons": 2047
+            },
+            "shell_sort": {
+                "seconds": 0.0031651000000039176,
+                "comparisons": 20481
+            },
+            "merge_sort": {
+                "seconds": 0.003421899999992206,
+                "comparisons": 1024
+            }
+        },
+        "4096": {
+            "selection_sort": {
+                "seconds": 0.47448669999999993,
+                "comparisons": 8382465
+            },
+            "insertion_sort": {
+                "seconds": 0.0005889999999908468,
+                "comparisons": 4095
+            },
+            "shell_sort": {
+                "seconds": 0.006677699999997344,
+                "comparisons": 45057
+            },
+            "merge_sort": {
+                "seconds": 0.007344299999999748,
+                "comparisons": 2048
+            }
+        },
+        "8192": {
+            "selection_sort": {
+                "seconds": 1.8923340999999994,
+                "comparisons": 33542145
+            },
+            "insertion_sort": {
+                "seconds": 0.0017972000000128219,
+                "comparisons": 8191
+            },
+            "shell_sort": {
+                "seconds": 0.014615399999996725,
+                "comparisons": 98305
+            },
+            "merge_sort": {
+                "seconds": 0.016437400000000935,
+                "comparisons": 4096
+            }
+        },
+        "16384": {
+            "selection_sort": {
+                "seconds": 7.681910000000002,
+                "comparisons": 134193153
+            },
+            "insertion_sort": {
+                "seconds": 0.002366499999993721,
+                "comparisons": 16383
+            },
+            "shell_sort": {
+                "seconds": 0.03217859999999462,
+                "comparisons": 212993
+            },
+            "merge_sort": {
+                "seconds": 0.03474799999999334,
+                "comparisons": 8192
+            }
+        },
+        "32768": {
+            "selection_sort": {
+                "seconds": 30.4928405,
+                "comparisons": 536821761
+            },
+            "insertion_sort": {
+                "seconds": 0.005343099999990386,
+                "comparisons": 32767
+            },
+            "shell_sort": {
+                "seconds": 0.07010680000000491,
+                "comparisons": 458753
+            },
+            "merge_sort": {
+                "seconds": 0.07364959999999598,
+                "comparisons": 16384
+            }
+        }
+    },
+    "reversed_sample": {
+        "128": {
+            "selection_sort": {
+                "seconds": 0.0004689000000013266,
+                "comparisons": 8001
+            },
+            "insertion_sort": {
+                "seconds": 0.0009092999999893436,
+                "comparisons": 8128
+            },
+            "shell_sort": {
+                "seconds": 0.0001543000000054917,
+                "comparisons": 769
+            },
+            "merge_sort": {
+                "seconds": 0.00016250000000184173,
+                "comparisons": 64
+            }
+        },
+        "256": {
+            "selection_sort": {
+                "seconds": 0.0018445999999983087,
+                "comparisons": 32385
+            },
+            "insertion_sort": {
+                "seconds": 0.0031108999999958087,
+                "comparisons": 32640
+            },
+            "shell_sort": {
+                "seconds": 0.0003547999999966578,
+                "comparisons": 1793
+            },
+            "merge_sort": {
+                "seconds": 0.00034589999999923293,
+                "comparisons": 128
+            }
+        },
+        "512": {
+            "selection_sort": {
+                "seconds": 0.007983600000002866,
+                "comparisons": 130305
+            },
+            "insertion_sort": {
+                "seconds": 0.012926399999997784,
+                "comparisons": 130816
+            },
+            "shell_sort": {
+                "seconds": 0.0008605999999957703,
+                "comparisons": 4097
+            },
+            "merge_sort": {
+                "seconds": 0.0007550000000122736,
+                "comparisons": 256
+            }
+        },
+        "1024": {
+            "selection_sort": {
+                "seconds": 0.03124210000000005,
+                "comparisons": 522753
+            },
+            "insertion_sort": {
+                "seconds": 0.054756299999993985,
+                "comparisons": 523776
+            },
+            "shell_sort": {
+                "seconds": 0.0020269999999982247,
+                "comparisons": 9217
+            },
+            "merge_sort": {
+                "seconds": 0.0016226999999986447,
+                "comparisons": 512
+            }
+        },
+        "2048": {
+            "selection_sort": {
+                "seconds": 0.12413800000000208,
+                "comparisons": 2094081
+            },
+            "insertion_sort": {
+                "seconds": 0.2155934999999971,
+                "comparisons": 2096128
+            },
+            "shell_sort": {
+                "seconds": 0.00437580000000537,
+                "comparisons": 20481
+            },
+            "merge_sort": {
+                "seconds": 0.003442999999990093,
+                "comparisons": 1024
+            }
+        },
+        "4096": {
+            "selection_sort": {
+                "seconds": 0.4972052999999903,
+                "comparisons": 8382465
+            },
+            "insertion_sort": {
+                "seconds": 0.8745467999999903,
+                "comparisons": 8386560
+            },
+            "shell_sort": {
+                "seconds": 0.009727300000008654,
+                "comparisons": 45057
+            },
+            "merge_sort": {
+                "seconds": 0.007490599999997016,
+                "comparisons": 2048
+            }
+        },
+        "8192": {
+            "selection_sort": {
+                "seconds": 1.9732508999999965,
+                "comparisons": 33542145
+            },
+            "insertion_sort": {
+                "seconds": 3.4939149000000214,
+                "comparisons": 33550336
+            },
+            "shell_sort": {
+                "seconds": 0.02139480000002436,
+                "comparisons": 98305
+            },
+            "merge_sort": {
+                "seconds": 0.015789200000000392,
+                "comparisons": 4096
+            }
+        },
+        "16384": {
+            "selection_sort": {
+                "seconds": 7.877062599999988,
+                "comparisons": 134193153
+            },
+            "insertion_sort": {
+                "seconds": 13.998840000000001,
+                "comparisons": 134209536
+            },
+            "shell_sort": {
+                "seconds": 0.04664030000000707,
+                "comparisons": 212993
+            },
+            "merge_sort": {
+                "seconds": 0.034065800000007584,
+                "comparisons": 8192
+            }
+        },
+        "32768": {
+            "selection_sort": {
+                "seconds": 32.04104140000001,
+                "comparisons": 536821761
+            },
+            "insertion_sort": {
+                "seconds": 56.67437620000001,
+                "comparisons": 536854528
+            },
+            "shell_sort": {
+                "seconds": 0.10383290000001466,
+                "comparisons": 458753
+            },
+            "merge_sort": {
+                "seconds": 0.07477969999999345,
+                "comparisons": 16384
+            }
+        }
+    },
+    "random_multiset123": {
+        "128": {
+            "selection_sort": {
+                "seconds": 0.00044359999998278,
+                "comparisons": 7750
+            },
+            "insertion_sort": {
+                "seconds": 0.00022599999999783904,
+                "comparisons": 2311
+            },
+            "shell_sort": {
+                "seconds": 9.829999999055872e-05,
+                "comparisons": 663
+            },
+            "merge_sort": {
+                "seconds": 0.0001732000000060907,
+                "comparisons": 102
+            }
+        },
+        "256": {
+            "selection_sort": {
+                "seconds": 0.0017708000000027369,
+                "comparisons": 32131
+            },
+            "insertion_sort": {
+                "seconds": 0.0011614000000008673,
+                "comparisons": 12265
+            },
+            "shell_sort": {
+                "seconds": 0.0002326999999979762,
+                "comparisons": 1583
+            },
+            "merge_sort": {
+                "seconds": 0.0003829999999993561,
+                "comparisons": 218
+            }
+        },
+        "512": {
+            "selection_sort": {
+                "seconds": 0.007554400000003625,
+                "comparisons": 129286
+            },
+            "insertion_sort": {
+                "seconds": 0.0047787000000028,
+                "comparisons": 48009
+            },
+            "shell_sort": {
+                "seconds": 0.0005846999999903346,
+                "comparisons": 3714
+            },
+            "merge_sort": {
+                "seconds": 0.0009316000000012536,
+                "comparisons": 433
+            }
+        },
+        "1024": {
+            "selection_sort": {
+                "seconds": 0.03196109999998953,
+                "comparisons": 521731
+            },
+            "insertion_sort": {
+                "seconds": 0.01883769999997753,
+                "comparisons": 180562
+            },
+            "shell_sort": {
+                "seconds": 0.0013469999999813353,
+                "comparisons": 8440
+            },
+            "merge_sort": {
+                "seconds": 0.0018565999999964333,
+                "comparisons": 857
+            }
+        },
+        "2048": {
+            "selection_sort": {
+                "seconds": 0.12359219999999027,
+                "comparisons": 2089990
+            },
+            "insertion_sort": {
+                "seconds": 0.07453910000000974,
+                "comparisons": 681550
+            },
+            "shell_sort": {
+                "seconds": 0.0029701999999929285,
+                "comparisons": 18905
+            },
+            "merge_sort": {
+                "seconds": 0.004078399999997373,
+                "comparisons": 1699
+            }
+        },
+        "4096": {
+            "selection_sort": {
+                "seconds": 0.5027994000000149,
+                "comparisons": 8378371
+            },
+            "insertion_sort": {
+                "seconds": 0.2975430999999844,
+                "comparisons": 2805108
+            },
+            "shell_sort": {
+                "seconds": 0.006781099999983553,
+                "comparisons": 41994
+            },
+            "merge_sort": {
+                "seconds": 0.00877819999999474,
+                "comparisons": 3431
+            }
+        },
+        "8192": {
+            "selection_sort": {
+                "seconds": 1.980159900000018,
+                "comparisons": 33525766
+            },
+            "insertion_sort": {
+                "seconds": 1.2273387000000184,
+                "comparisons": 11276065
+            },
+            "shell_sort": {
+                "seconds": 0.015053100000017139,
+                "comparisons": 92419
+            },
+            "merge_sort": {
+                "seconds": 0.020497000000005983,
+                "comparisons": 6830
+            }
+        },
+        "16384": {
+            "selection_sort": {
+                "seconds": 8.11717920000001,
+                "comparisons": 134176771
+            },
+            "insertion_sort": {
+                "seconds": 5.024933200000021,
+                "comparisons": 44856725
+            },
+            "shell_sort": {
+                "seconds": 0.03517579999999043,
+                "comparisons": 200803
+            },
+            "merge_sort": {
+                "seconds": 0.0449509999999691,
+                "comparisons": 13613
+            }
+        },
+        "32768": {
+            "selection_sort": {
+                "seconds": 32.74235669999996,
+                "comparisons": 536756230
+            },
+            "insertion_sort": {
+                "seconds": 20.23563469999999,
+                "comparisons": 178430901
+            },
+            "shell_sort": {
+                "seconds": 0.07152269999994587,
+                "comparisons": 435831
+            },
+            "merge_sort": {
+                "seconds": 0.08770540000000437,
+                "comparisons": 27280
+            }
+        }
+    }
+}
